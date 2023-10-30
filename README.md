@@ -1,6 +1,7 @@
 # 🚀 ZEX Proxy List v1.0
 
-A Python script to fetch and test SOCKS4 and SOCKS5 proxy lists.
+A Python script to fetch and test SOCKS4 and SOCKS5 proxy lists. This script is designed to retrieve free proxies.
+
 
 ## ⚙️ Requirements
 
