@@ -24,9 +24,8 @@ A Python script to fetch and test SOCKS4 and SOCKS5 proxy lists. This script is 
 ## 🚀 Usage
 
 Run the script using Python 3:
-    ```bash
+
     python3 proxy.py
-    ```
 
 Follow the on-screen prompts to choose the type of proxies (SOCKS4 or SOCKS5), the number of proxies you want to test, and whether you want to test them or not.
 
