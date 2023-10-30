@@ -43,13 +43,13 @@ def main():
         proxy_type, url = PROXY_URLS[choice]
         proxies = fetch_proxies(proxy_type, url)
 
-        num_proxies = Prompt.ask(f"How many {proxy_type} proxies would you like to test? (Leave empty for all)", default=str(len(proxies)))
+        num_proxies = Prompt.ask(f"How many {proxy_type} proxies would you like to test? (Leave empty for all) ", default=str(len(proxies)))
         proxies = proxies[:int(num_proxies)]
 
-        test_choice = Prompt.ask("Would you like to test the proxies? (y/n default is y)", choices=["y", "n"], default="y")
+        test_choice = Prompt.ask("Would you like to test the proxies? ", choices=["y", "n"], default="y")
 
         if test_choice == "y":
-            timeout = Prompt.ask("Enter timeout for testing (default is 1 second):", default="1")
+            timeout = Prompt.ask("Enter timeout for testing (default is 1 second)", default="1")
             timeout = float(timeout)
             working_proxies = []
 
