@@ -24,7 +24,6 @@ A Python script to fetch and test SOCKS4 and SOCKS5 proxy lists. This script is 
 ## 🚀 Usage
 
 Run the script using Python 3:
-
     ```bash
     python3 proxy.py
     ```
